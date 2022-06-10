@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FBBF24;
+    padding: 50px 30px;
+    background-color: #064E3B;
+    font-size: 20px;
+    text-decoration-color: black;
+}
+
+#intro {
+    padding-bottom: 40px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+.emph {
+    color: #FBBF24;
+}
+
+.subtitle {
+    margin-top: 0px;
+    color: #047857;
+}
+
+#gen-pw-button {
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FBBF24;
+    margin: 35px 0px;
+    font-size: 18px;
+}
+
+hr {
+    height: 2px;
+    background-color: #065F46;
+    border: none;
+}
+
+#options-container {
+    display: grid;
+    grid-template: 100px / auto auto;
+}
+
+.option-button {
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #065F46;
+    font-size: 14px;
+    color: #FBBF24;
+    padding: 20px 11px 5px 11px;
+    text-align: center;
+}
